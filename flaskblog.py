@@ -10,7 +10,7 @@ def home():
 
 @app.route("/about")
 def about():
-    return "<h1> Home Page</h1>"
+    return render_template("templates/about.html")
 
 
 if __name__=="__main__":
